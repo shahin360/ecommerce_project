@@ -13,6 +13,10 @@ body{
 .nav-link{
     color: black!important;
 }
+#navbar_icon i{
+    color: black;
+    font-size: 1.8rem;
+}
 /**carosul style section**/
 .carosul_section{
     margin: 3rem 0rem;
@@ -48,6 +52,13 @@ body{
 #product_categories_section{
     margin-bottom: 3rem;
 }
+.categories h1{
+    margin: 61px 10px;
+    color: white;
+    padding: 4%;
+}
+
+
  #shoes{
     background:blue;
     text-align: center;
