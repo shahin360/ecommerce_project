@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: rgba(229, 235, 235, 0);
+}
+/** nav style section**/
+.navbar{
+    background-color: rgba(184, 178, 178, 0.315)!important;
+}
+.nav-link{
+    color: black!important;
+}
+/**carosul style section**/
+.carosul_section{
+    margin: 3rem 0rem;
+    
+}
+.carousel-item{
+    background-color: rgba(240, 128, 128, 0.15)!important;
+    border-radius: 10px;
+}
+
+#carosul_img_item img{
+    width: 80%;
+    padding: 10px;
+}
+.banner_left_content{
+    padding: 8%;
+    box-sizing: border-box;
+
+}
+.banner_left_content h2{
+    color: rgb(219, 2, 67);
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.banner_left_content a{
+    text-decoration: none;
+    background-color: rgb(219, 2, 67);
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+/** products categories style section**/
+#product_categories_section{
+    margin-bottom: 3rem;
+}
+ #shoes{
+    background:blue;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#bag{
+    background:pink;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#watch{
+    background:purple;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/** product content style **/
+.product_content{
+    margin: 5px 0px;
+    transition: 0.5s;
+}
+.product_content:hover{
+    box-shadow: -1px 1px 7px #2925258c;
+}
+.card a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(255, 0, 98);
+    color: white;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+.card h4{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+/**subscribe section style **/
+#subscribe_area{
+    background-color: rgba(238, 130, 238, 0.431);
+    border-radius: 10px;
+}
+.subscribe_content{
+    width: 40%;
+    margin: 0px auto;
+    padding:50px 0px;
+}
+.buy-now-btn{
+    margin-top: 5px;
+    padding: 10px 15px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+/** footer style section **/
+footer p{
+    text-align: center;
+}
+
